@@ -764,3 +764,179 @@ footer p {
     }
 
 }
+/* =========================
+   RESUME DESIGN
+========================= */
+
+#resume {
+    background: #f5f7fb;
+    text-align: center;
+}
+
+.resume-container {
+    max-width: 850px;
+    margin: auto;
+}
+
+.resume-card {
+    background: white;
+    padding: 45px 30px;
+    border-radius: 18px;
+    border-top: 5px solid #2563eb;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.resume-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.resume-card h3 {
+    font-size: 28px;
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.resume-card p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+    color: #4b5563;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.resume-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.resume-buttons .btn {
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+
+    .resume-card {
+        padding: 35px 20px;
+    }
+
+    .resume-card h3 {
+        font-size: 23px;
+    }
+
+    .resume-card p {
+        font-size: 15px;
+    }
+
+    .resume-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume-buttons .btn {
+        width: 220px;
+    }
+}
+/* =========================
+   CERTIFICATIONS DESIGN
+========================= */
+
+#certifications {
+    background: white;
+}
+
+.certifications-container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.certificate-card {
+    background: #f5f7fb;
+    padding: 35px 25px;
+    border-radius: 15px;
+    text-align: center;
+    border-top: 5px solid #2563eb;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.certificate-card:hover {
+    transform: translateY(-8px);
+}
+
+.certificate-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.certificate-card h3 {
+    color: #2563eb;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.certificate-card p {
+    color: #4b5563;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .certifications-container {
+        grid-template-columns: 1fr;
+    }
+}
+/* =========================
+   SKILLS DESIGN
+========================= */
+
+#skills {
+    background: #f5f7fb;
+}
+
+.skills-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.skill-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-bottom: 4px solid #2563eb;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+
+.skill-icon {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.skill-card h3 {
+    color: #2563eb;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    color: #4b5563;
+}
+
+@media (max-width: 700px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+}
